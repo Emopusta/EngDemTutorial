@@ -6,12 +6,12 @@ namespace OOPExample
     {
         static void Main(string[] args)
         {
-            Customer customer = new Customer();
+            Customer customer = new CoorporateCustomer();
             IndividualCustomer individualCustomer = new IndividualCustomer();
             Customer cust = new IndividualCustomer();
             
             CustomerManager customerManager = new CustomerManager();
-
+            
             //customerManager.Add(cust);
             
 
