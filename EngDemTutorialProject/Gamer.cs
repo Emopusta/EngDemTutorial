@@ -1,4 +1,4 @@
-﻿using EngDemFifthDayHomework.Abstract;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EngDemFifthDayHomework.Entities
 {
-    internal class Gamer : IEntity
+    internal class Gamer
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
