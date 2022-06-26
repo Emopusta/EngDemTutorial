@@ -17,7 +17,7 @@ namespace EngDemFifthDayHomework
             game1.GameName = "Portal 2";
             game1.GamePrice = 18.00;
             IGamerService gamerManager = new GamerManager(new GamerCheckManager());
-            ISaleService saleService = new SaleManager(new SummerOfferManager());
+            IOrderService saleService = new OrderManager(new SummerOfferManager());
             gamerManager.SignUp(gamer);
 
             saleService.SellGame(gamer1, game1);

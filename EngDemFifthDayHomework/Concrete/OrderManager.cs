@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace EngDemFifthDayHomework.Concrete
 {
-    public class SaleManager : ISaleService
+    public class OrderManager : IOrderService
     {
         private IOfferService _offerService;
 
-        public SaleManager(IOfferService offerService)
+        public OrderManager(IOfferService offerService)
         {
             _offerService = offerService;
         }

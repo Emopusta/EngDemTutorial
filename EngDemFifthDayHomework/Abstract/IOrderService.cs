@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EngDemFifthDayHomework.Abstract
 {
-    public interface ISaleService
+    public interface IOrderService
     {
         void SellGame(Gamer gamer,Game game);
 
